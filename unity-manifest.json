@@ -3,53 +3,5 @@
   "game": "papery-planes",
   "generatedAt": "2026-07-13T06:36:47.762Z",
   "chunkSize": 19922944,
-  "assets": {
-    "unity/ppw.data.unityweb": {
-      "kind": "data",
-      "mime": "application/octet-stream",
-      "size": 12545865,
-      "sha256": "066e87beb192fed7423703e601f6e31cb7207b3a8d68cf5668c41215599432fa",
-      "sourceCompression": "raw",
-      "chunks": [
-        {
-          "path": "_unity_chunks/data-066e87beb192fed7/part-000.bin",
-          "size": 12545865,
-          "sha256": "066e87beb192fed7423703e601f6e31cb7207b3a8d68cf5668c41215599432fa"
-        }
-      ]
-    },
-    "unity/ppw.wasm.code.unityweb": {
-      "kind": "wasm",
-      "mime": "application/wasm",
-      "size": 20975416,
-      "sha256": "c3c1ea26a163971cbf2f078fffe75ba15743ca2559e43407f3fb407296fc9293",
-      "sourceCompression": "raw",
-      "chunks": [
-        {
-          "path": "_unity_chunks/wasm-c3c1ea26a163971c/part-000.bin",
-          "size": 19922944,
-          "sha256": "36c3f24b7b761e678eeb7e5801fe13d6a6aaa1a41c68dac9fe3ed9836694161a"
-        },
-        {
-          "path": "_unity_chunks/wasm-c3c1ea26a163971c/part-001.bin",
-          "size": 1052472,
-          "sha256": "ee417e89c59ae27135cbdc058b5fa0a2fc837ec3fe72735980893b3277392f8a"
-        }
-      ]
-    },
-    "unity/ppw.wasm.framework.unityweb": {
-      "kind": "framework",
-      "mime": "application/javascript; charset=utf-8",
-      "size": 533259,
-      "sha256": "85edc3b65563fc4996d876fe879b10fa8c262a82222086adac9ba08145750dd3",
-      "sourceCompression": "raw",
-      "chunks": [
-        {
-          "path": "_unity_chunks/framework-85edc3b65563fc49/part-000.bin",
-          "size": 533259,
-          "sha256": "85edc3b65563fc4996d876fe879b10fa8c262a82222086adac9ba08145750dd3"
-        }
-      ]
-    }
-  }
+  "assets": {}
 }
