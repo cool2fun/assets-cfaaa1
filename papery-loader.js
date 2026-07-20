@@ -12,8 +12,17 @@
   sdk.gameLoadingProgress = sdk.gameLoadingProgress || function () {};
   sdk.gameplayStart = sdk.gameplayStart || function () {};
   sdk.gameplayStop = sdk.gameplayStop || function () {};
+  sdk.gameInteractive = sdk.gameInteractive || function () {};
+  sdk.happyTime = sdk.happyTime || function () {};
+  sdk.roundStart = sdk.roundStart || function () {};
+  sdk.roundEnd = sdk.roundEnd || function () {};
+  sdk.customEvent = sdk.customEvent || function () {};
+  sdk.displayAd = sdk.displayAd || function () {};
+  sdk.destroyAd = sdk.destroyAd || function () {};
+  sdk.sendHighscore = sdk.sendHighscore || function () {};
+  sdk.getLeaderboard = sdk.getLeaderboard || function () { return Promise.resolve({}); };
   sdk.commercialBreak = sdk.commercialBreak || function () { return Promise.resolve(); };
-  sdk.rewardedBreak = sdk.rewardedBreak || function () { return Promise.resolve(false); };
+  sdk.rewardedBreak = sdk.rewardedBreak || function () { return Promise.resolve(true); };
   window.PokiSDK = sdk;
   window.poki = sdk;
 
